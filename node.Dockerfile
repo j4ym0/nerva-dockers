@@ -23,4 +23,4 @@ WORKDIR /app
 ENTRYPOINT ["nervad"]
 
 # Default config
-CMD [ "--data-dir", "/data"]
+CMD [ "--data-dir", "/data", "--public-node"]
