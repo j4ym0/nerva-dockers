@@ -4,7 +4,7 @@ FROM ubuntu:20.04
 VOLUME /data
 
 # Port for nerva
-EXPOSE 8888
+EXPOSE 17565 18565
 
 ENV DEBIAN_FRONTEND noninteractive
 
