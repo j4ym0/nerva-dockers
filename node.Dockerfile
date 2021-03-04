@@ -10,6 +10,7 @@ ENV DEBIAN_FRONTEND noninteractive
 
 # Ok lets install everything
 RUN apt update && \
+ln -fs /usr/share/zoneinfo/UTC /etc/localtime && \
 apt install -y wget unzip && \
 mkdir /app && \
 cd /app && \
